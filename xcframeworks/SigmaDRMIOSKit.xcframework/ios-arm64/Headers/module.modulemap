@@ -1,5 +1,5 @@
 module SigmaDRMIOSKit {
-    umbrella header "SigmaDRM.h"
+    header "SigmaDRMIOSKit.xcframework/ios-arm64/Headers/SigmaDRM.h"
 
     export *
     module * { export * }
