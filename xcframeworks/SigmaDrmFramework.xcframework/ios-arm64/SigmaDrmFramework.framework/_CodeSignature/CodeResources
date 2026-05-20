@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/Header.h</key>
+		<data>
+		gSURUma6KcIG48gClmUYpw13Lq0=
+		</data>
 		<key>Headers/SigmaDRM.h</key>
 		<data>
 		9p8R9SKmFslq/w+dfR9qG5EbT+E=
@@ -14,11 +18,11 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		/TChAZL0UmySLES/KoqAAD0vDsM=
+		796QYnyT4CI6L5a9fC0+TG0gLZs=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NGB1csOmvwPCfL0reiAakAfx3Zg=
+		ltd0n3agnezZSJCPrBL05PrMr+Q=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,15 +30,22 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NGB1csOmvwPCfL0reiAakAfx3Zg=
+		ltd0n3agnezZSJCPrBL05PrMr+Q=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SN7x/gkRBD0AmKc4dADL5/pxVQo=
+		NsoMm5jmcsKqSpIZh+jXRlmZxa8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/Header.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			boSq9ZDL5fZldcHtmFJxrrdE79RX5l/g2Do4XIvkfcI=
+			</data>
+		</dict>
 		<key>Headers/SigmaDRM.h</key>
 		<dict>
 			<key>hash2</key>
@@ -46,14 +57,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B/XMTmnXHNxpD5tPWXF6Teh8aS8SsOgW0EVIglo0f5c=
+			oAvJcMn2XQe1YCYKurIePRfSbMClIvr+OLIcoRBBFc0=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixNw2CYZkuIOl7uBguk9BxIXB0Ev+xsWLETqYNAMC9I=
+			M0NZuzMAI+3LeqQCHlkWIEoYrf3K02fq5RSn69diDdI=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -67,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixNw2CYZkuIOl7uBguk9BxIXB0Ev+xsWLETqYNAMC9I=
+			M0NZuzMAI+3LeqQCHlkWIEoYrf3K02fq5RSn69diDdI=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7YRf50dZpx1MALu8+7nkCIUbpIK/giC/yTXdjuzBYUU=
+			ZKXsehmq8qGBd+/ROP0whCq5wsdwT3Lb10lpx7OiR2U=
 			</data>
 		</dict>
 	</dict>
