@@ -1,5 +1,5 @@
 framework module SigmaDrmFramework {
-    umbrella header "Headers.h"
+    umbrella header "Header.h"
 
     export *
     module * { export * }
