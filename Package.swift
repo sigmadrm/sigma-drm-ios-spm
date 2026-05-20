@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "SigmaDRMIOSKit",
+    name: "SigmaDrmFramework",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "SigmaDRMIOSKit",
-            targets: ["SigmaDRMIOSKit"]
+            name: "SigmaDrmFramework",
+            targets: ["SigmaDrmFramework"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "SigmaDRMIOSKit",
-            path: "SigmaDRMIOSKit.xcframework"
+            name: "SigmaDrmFramework",
+            path: "SigmaDrmFramework.xcframework"
         )
     ]
 )

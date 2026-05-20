@@ -1,6 +1,0 @@
-module SigmaDRMIOSKit {
-    umbrella header "SigmaDRM.h"
-
-    export *
-    module * { export * }
-}
