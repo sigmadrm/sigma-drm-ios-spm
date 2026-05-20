@@ -6,8 +6,9 @@
 //  Copyright © 2026 NguyenVanSao. All rights reserved.
 //
 
-#ifndef Header_h
-#define Header_h
+#ifndef SigmaDrmFramework_h
+#define SigmaDrmFramework_h
 
 
 #endif /* Header_h */
+#import <SigmaDrmFramework/SigmaDRM.h>
