@@ -1,15 +1,16 @@
 // swift-tools-version:5.3
 // Swift Package bọc XCFramework static SigmaDRM (tạo từ player-drm-ios / SigmaDRM_iOS/build.sh).
+// Target Swift phải tên khác 'SigmaDRM' để không trùng sigma-multidrm-spm trong cùng package graph.
 
 import PackageDescription
 
 let package = Package(
-    name: "SigmaDRM",
+    name: "SigmaDRMIOS",
     platforms: [.iOS(.v12)],
     products: [
         .library(
             name: "SigmaDRM",
-            targets: ["SigmaDRM", "SigmaDRMNative"]),
+            targets: ["SigmaDRMIOSKit", "SigmaDRMNative"]),
     ],
     dependencies: [],
     targets: [
@@ -18,7 +19,7 @@ let package = Package(
             path: "xcframeworks/SigmaDRM-sdk.xcframework"
         ),
         .target(
-            name: "SigmaDRM"
+            name: "SigmaDRMIOSKit"
         ),
     ]
 )
