@@ -1,6 +1,6 @@
 //
-//  Header.h
-//  SigmaDrmFramework
+//  HeaderSim.h
+//  SigmaDRM
 //
 //  Created by Pham Hai on 21/5/26.
 //  Copyright © 2026 NguyenVanSao. All rights reserved.
@@ -17,5 +17,5 @@ FOUNDATION_EXPORT double SigmaDrmFrameworkFrameworkVersionNumber;
 //! Project version string for SigmaMultiDRMFramework.
 FOUNDATION_EXPORT const unsigned char SigmaDrmFrameworkFrameworkVersionString[];
 
-#endif /* Header_h */
+#endif /* HeaderSim_h */
 #import <SigmaDrmFramework/SigmaDRM.h>

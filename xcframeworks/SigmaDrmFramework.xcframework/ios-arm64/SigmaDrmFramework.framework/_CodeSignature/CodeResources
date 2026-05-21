@@ -10,19 +10,19 @@
 		</data>
 		<key>Headers/SigmaDrmFramework.h</key>
 		<data>
-		+N2YpAn2zPK/ierVLgRLv3T/qfc=
+		Kc/shyKi+NzmdBt8waUfMqqc2Ck=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EckKOJKcQ/gw6dBARBCoUOVi7z0=
+		k/ubsvLn/owrRChECcsmaF7nhlo=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		796QYnyT4CI6L5a9fC0+TG0gLZs=
+		/TChAZL0UmySLES/KoqAAD0vDsM=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		l9t3txAr/rkHrMX4fqxECadN8ec=
+		G9h0wKABhOW9h2lPLKnSUvQr0Js=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		l9t3txAr/rkHrMX4fqxECadN8ec=
+		G9h0wKABhOW9h2lPLKnSUvQr0Js=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OME5Q52SMsd83X7KvtxgCKDtBYA=
+		UwAoIQXFRMmmVSf0P9NDOyk+zhE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,21 +54,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ldGb3YmCqMGlSQ0o5d4pC93Ft0bnaeVTboaa4MSiJno=
+			5yDh9PdOpCFHIimVWv0td0QAC53qcMR0UT3yJdQdLqE=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oAvJcMn2XQe1YCYKurIePRfSbMClIvr+OLIcoRBBFc0=
+			B/XMTmnXHNxpD5tPWXF6Teh8aS8SsOgW0EVIglo0f5c=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KfPt3Tb9BHuiafvGMe9+mEQjVMhB46QrkaKx3uKcAwI=
+			llaFO72lRlB+a10ModIdYNm2jr3dNoLyVPcYEzIyYlE=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KfPt3Tb9BHuiafvGMe9+mEQjVMhB46QrkaKx3uKcAwI=
+			llaFO72lRlB+a10ModIdYNm2jr3dNoLyVPcYEzIyYlE=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			31UqFERmucLyfAXG+jvYXe7hvkAqMcMUHUV2uiBCQTU=
+			jrrjUP+VtB6oRE/8T0ivlyqc1RorGAewhpdbLq1akQg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

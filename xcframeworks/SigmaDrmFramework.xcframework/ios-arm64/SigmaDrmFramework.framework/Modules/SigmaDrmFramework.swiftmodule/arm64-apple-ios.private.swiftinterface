@@ -8,6 +8,3 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers final public class Dummy {
-  @objc deinit
-}
