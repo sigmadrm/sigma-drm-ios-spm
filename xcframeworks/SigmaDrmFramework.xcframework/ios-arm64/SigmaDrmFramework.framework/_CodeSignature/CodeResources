@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SigmaDrmFramework.h</key>
 		<data>
-		sPnJEkfq+RWTjcvrRUK/ls96xRM=
+		+N2YpAn2zPK/ierVLgRLv3T/qfc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wAapCDAhM9JI2ADC+lZB4+HmlnI=
+		OME5Q52SMsd83X7KvtxgCKDtBYA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3XHc/t3K0gGTrcbVRc8BA/3Ld9B7hqOm3gkXUKoSnes=
+			ldGb3YmCqMGlSQ0o5d4pC93Ft0bnaeVTboaa4MSiJno=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TxMSw0BaTj3JiZnKvDLgH1afsbE3V9jpG0dIoZCqmGE=
+			31UqFERmucLyfAXG+jvYXe7hvkAqMcMUHUV2uiBCQTU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SigmaDrmFramework.h</key>
 		<data>
-		+cAQuVfZvBocZ7+JzCYicilmDGk=
+		Kc/shyKi+NzmdBt8waUfMqqc2Ck=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wTIVuHY226gy1e9uLvlUWVNuFOk=
+		8I7SRiBv3MQjrHe6i941YOY1oQs=
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SigmaDrmFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p0JQ3T0xQxjmFEoTWxRH+oMUkj0=
+		kwLg8gKCSXFZOSzkCL3/l0yO3qo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fylTBgk0HO6U445B97Z45EBxTBGTjVosF09iFA7kows=
+			5yDh9PdOpCFHIimVWv0td0QAC53qcMR0UT3yJdQdLqE=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h43GrFjtu27HxPd9nOBvZbchHz/PeTGm5sb25G/kUVg=
+			DHq5hg08JyMnN+242kMgDwPkY0F3q59l8EzvPGYpBpU=
 			</data>
 		</dict>
 		<key>Modules/SigmaDrmFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7ivDQHe4lfONyLz4LojFYjHbUa9sRxj44hhsO/vZbSQ=
+			VxCYDnVHCd3RC6/BAksx37BjLh9/4Fyr6lUlW9JnTS0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
