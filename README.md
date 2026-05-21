@@ -1,35 +1,37 @@
 # sigma-drm-ios-spm
 
-Swift Package Manager cho **SigmaDRM** trên iOS, cùng kiểu cấu trúc với [sigma-multidrm-spm](https://github.com/sigmadrm/sigma-multidrm-spm): `binaryTarget` trỏ tới `.xcframework` + target Swift mỏng.
+Swift Package phân phối **SigmaDRM** cho iOS (iOS 12+).
 
-**Tên target Swift** là `SigmaDRMIOSKit` (không dùng `SigmaDRM`) để tránh xung đột với target `SigmaDRM` của `sigma-multidrm-spm` khi hai package cùng nằm trong một dependency graph.
+## Thêm vào app
 
-## Chuẩn bị XCFramework
+1. Xcode → **File → Add Package Dependencies…**
+2. Chọn **Add Local…** (hoặc URL Git của repo này).
+3. Thêm product **`SigmaDrmFramework`** vào app target.
 
-Build từ repo `player-drm-ios`:
+## Dùng trong code
 
-```bash
-cd SigmaDRM_iOS
-./build.sh
+**Swift:**
+
+```swift
+import SigmaDrmFramework
 ```
 
-Copy kết quả vào thư mục này (xem `xcframeworks/README.md`).
+**Objective‑C:**
 
-## Dùng trong Xcode / project khác
+```objc
+@import SigmaDrmFramework;
+```
 
-1. *File → Add Package Dependencies…*
-2. Chọn *Add Local…* và trỏ tới thư mục `sigma-drm-ios-spm`, hoặc dùng URL Git sau khi push.
+API chính nằm trong header `SigmaDRM` (class `SigmaDRM`, delegate, …).
 
-Thêm product **SigmaDRM** vào app target.
+## Cấu hình app
 
-Trong Swift, module stub là **`SigmaDRMIOSKit`** (`import SigmaDRMIOSKit`). API ObjC của binary vẫn lấy qua header / module map trong XCFramework như bình thường.
+Trong **Build Settings** của app target:
 
-## Lưu ý tích hợp (giống dùng static lib trực tiếp)
+- **Other Linker Flags:** thêm `-ObjC`
+- **Linked Frameworks:** đảm bảo có `Foundation`, `AVFoundation` (và các framework app bạn đã dùng khi tích hợp SigmaDRM trước đây)
 
-- App **Objective‑C / mixed** thường cần **`Other Linker Flags: -ObjC`** (và các framework hệ thống như `AVFoundation` nếu chưa có) vì binary là static archive trong XCFramework.
-- Header công khai của slice nằm trong XCFramework; nếu cần thêm API Swift bọc ObjC, bổ sung trong `Sources/SigmaDRMIOSKit/`.
+## Lưu ý
 
-## Đổi tên / nhiều biến thể
-
-- Đổi đường dẫn XCFramework: sửa `path:` của target `SigmaDRMNative` trong `Package.swift`.
-- Đổi tên product hoặc target Swift: giữ đồng bộ `products` và `targets`.
+- Package ship **binary** — không cần build source SigmaDRM trong app.
+- Hiện chỉ hỗ trợ **thiết bị iOS thật (arm64)**. Build trên **Simulator** có thể không được nếu XCFramework chưa có slice simulator.
