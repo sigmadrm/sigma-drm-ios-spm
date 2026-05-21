@@ -17,5 +17,6 @@ FOUNDATION_EXPORT double SigmaDrmFrameworkFrameworkVersionNumber;
 //! Project version string for SigmaMultiDRMFramework.
 FOUNDATION_EXPORT const unsigned char SigmaDrmFrameworkFrameworkVersionString[];
 
-#endif /* Header_h */
 #import <SigmaDrmFramework/SigmaDRM.h>
+
+#endif /* SigmaDrmFramework_h */
