@@ -9,12 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "SigmaDrmFramework",
-            targets: ["SigmaDrmFramework"]),
+            targets: ["SigmaDrmFramework", "SigmaDrmFrameworkBinary"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "SigmaDrmFramework",
+            name: "SigmaDrmFrameworkBinary",
             path: "xcframeworks/SigmaDrmFramework.xcframework"
         ),
         .target(
