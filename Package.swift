@@ -5,10 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "SigmaDrmFramework",
+    version: "2.1.0",
     platforms: [.iOS(.v12)],
     products: [
-        // Chỉ ship binary — tránh target Swift trùng tên module `SigmaDrmFramework`
-        // (khiến `import SigmaDrmFramework` không thấy class ObjC `SigmaDRM`).
         .library(
             name: "SigmaDrmFramework",
             targets: ["SigmaDrmFrameworkBinary"]),
