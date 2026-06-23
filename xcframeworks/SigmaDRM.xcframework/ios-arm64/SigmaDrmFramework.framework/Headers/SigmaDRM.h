@@ -33,7 +33,8 @@ typedef BOOL (^SigmaKeyRequestFilter)(NSURL *_Nonnull url);
 @optional
 - (void)onSigmaStatus:(NSInteger)status;
 - (void)onSigmaData:(NSDictionary *_Nullable)info;
-- (void)onProgressLoad:(NSString *_Nullable)progressName status:(NSString *_Nullable)error;
+- (void)onProgressLoad:(NSString *_Nullable)progressName
+                status:(NSString *_Nullable)error;
 @end
 @interface SigmaDRM : NSObject
 
@@ -55,18 +56,21 @@ typedef BOOL (^SigmaKeyRequestFilter)(NSURL *_Nonnull url);
 /** Custom filter để nhận diện key request cho AES-128 */
 @property(nonatomic, copy, nullable) SigmaKeyRequestFilter keyRequestFilter;
 /** Custom headers gửi kèm khi lấy key AES-128 */
-@property(nonatomic, strong, nullable) NSDictionary<NSString *, NSString *> *keyRequestHeaders;
+@property(nonatomic, strong, nullable)
+    NSDictionary<NSString *, NSString *> *keyRequestHeaders;
 
 #pragma mark - 2. Sigma DRM Configuration (Proprietary)
 @property(nonatomic, copy, nullable) NSString *appId;
 @property(nonatomic, copy, nullable) NSString *merchantId;
 @property(nonatomic, copy, nullable) NSString *authToken;
-@property(nonatomic, copy, nullable) NSString *userId;
+@property(nonatomic, copy, nullable, getter=userId, setter=setUserUid:)
+    NSString *userId;
 @property(nonatomic, copy, nullable) NSString *sessionId;
-@property(nonatomic, strong, nullable) NSArray *drmList;
+@property(nonatomic, strong, nullable, getter=drmList, setter=setDrmUrl:)
+    NSArray *drmList;
 
 /** Chỉ dành riêng cho Sigma DRM */
-- (NSMutableDictionary *_Nullable) getCustomData;
+- (NSMutableDictionary *_Nullable)getCustomData;
 
 #pragma mark - Utilities
 - (void)destroy;

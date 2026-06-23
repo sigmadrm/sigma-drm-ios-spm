@@ -1,6 +1,0 @@
-module SigmaDrmFramework {
-    umbrella header "SigmaDrmFramework.h"
-    export *
-
-    module * { export * }
-}
