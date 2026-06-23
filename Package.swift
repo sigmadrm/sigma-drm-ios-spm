@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SigmaDrmFramework",
-            path: "xcframeworks/SigmaDrmFramework.xcframework"
+            path: "xcframeworks/SigmaDRM.xcframework"
         ),
         .target(
             name: "SigmaDRM"
