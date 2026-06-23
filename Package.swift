@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "SigmaDrmSPM",
-    platforms: [.iOS(.v10)],
+    name: "SigmaDrm",
+    platforms: [.iOS(.v9), .tvOS(.v9)],
     products: [
         .library(
-            name: "SigmaDrmFramework",
-            targets: ["SigmaDummy", "SigmaDrmBinaryFramework"]),
+            name: "SigmaDrm",
+            targets: ["SigmaDummy", "SigmaDrmFramework"]),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "SigmaDrmBinaryFramework",
+            name: "SigmaDrmFramework",
             path: "xcframeworks/SigmaDRM.xcframework"
         ),
         .target(
