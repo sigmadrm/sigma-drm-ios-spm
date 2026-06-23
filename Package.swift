@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "SigmaDrmFramework",
-    version: "2.1.0",
     platforms: [.iOS(.v12)],
     products: [
         .library(
@@ -16,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SigmaDrmFrameworkBinary",
-            path: "xcframeworks/SigmaDrmFramework.xcframework"
+            path: "xcframeworks/SigmaDRM.xcframework"
         ),
     ]
 )
