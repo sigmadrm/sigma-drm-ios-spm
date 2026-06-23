@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char SigmaDrmFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SigmaDrmFramework/PublicHeader.h>
 
-#import "SigmaDRM.h"
+#import <SigmaDRM/SigmaDRM.h>
